@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>
+           Register Page
+        </title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="Stylessheet" href="src/css/main.css">
+        <link rel="stylesheet" href="dist/css/multi-select-tag.css">
+        
+    </head>
+    <body>
+
+        <form action="" method="get">
+          <div>
+            <label for="city">Countries</label>
+            <select name="countries" id="countries" multiple>
+              <option value="1">Afghanistan</option>
+              <option value="2">Australia</option>
+              <option value="3">Germany</option>
+              <option value="4">Canada</option>
+              <option value="5">Russia</option>
+          </select>
+          </div>
+        </form>
+
+
+    </body>
+    <script src="dist/js/multi-select-tag.js"></script>
+    <script>
+      new MultiSelectTag('countries')  // id
+  </script>
+</html>

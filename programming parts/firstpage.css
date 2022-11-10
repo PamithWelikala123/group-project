@@ -1,0 +1,52 @@
+.main{
+  position: relative;
+  background: #FFFFFF;
+}
+.logo{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  position: absolute;
+  
+
+width: 772px;
+height: 268px;
+left: 334px;
+top: 144px;
+}
+
+.img{
+  width: 772px;
+  height: 268px;
+  left: 334px;
+  top: 244px;
+}  
+
+.sentence{
+position: absolute;
+width: 685px;
+height: 52px;
+left: 421px;
+top: 461px;
+
+
+line-height: 52px;
+
+
+ 
+}
+.vector{
+
+position: absolute;
+width: 265px;
+height: 4px;
+left: 587px;
+top: 518px;
+
+
+}

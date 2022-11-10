@@ -1,0 +1,114 @@
+.corner{
+  width: 100%;
+  display: inline-block;
+}
+
+.img{
+ position: absolute;
+width: 100%;
+
+bottom: 0%;
+}
+
+.img1{
+
+position: absolute;
+width: 100%;
+
+bottom: 0%;
+
+}
+
+.mainletter{
+  width: 100%;
+  display: inline-block;
+}
+
+.letters{
+
+position: absolute;
+width: 50%;
+
+left: 25%;
+top:70%;
+display: inline-block;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 200%;
+font-size: 150%;
+line-height: 36%;
+
+color: #000000;
+margin-bottom: 12px;
+}
+
+.back{
+position: absolute;
+width: 50%;
+height: 100%;
+left: 0px;
+top: 0px;
+
+background: #F4FFF2;
+}
+
+
+
+
+.logo{
+position: absolute;
+width: 25%;
+left: 63%;
+top:10%;
+display: inline-block;
+
+
+}
+
+.search1{
+  display: inline-block;
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 33%;
+  left: 60%;
+  top:40%;
+  height: 60px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: rgba(35, 126, 12, 0.4);
+
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 10px;
+}
+
+.search2{
+  display: inline-block;
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 33%;
+  left: 60%;
+  top:60%;
+  height: 60px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: rgba(52, 149, 27, 0.4);
+
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 10px
+
+}
+
+
+.Email-name{
+  
+}

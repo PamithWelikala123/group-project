@@ -1,0 +1,133 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>
+           Register Page
+        </title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="Stylessheet" href="src/css/main.css">
+        <link rel="stylesheet" href="dist/css/multi-select-tag.css">
+        <link rel="Stylesheet" href="register-delivery.css">
+        
+    </head>
+    <body>
+
+        <div class="logo">
+               <img class="img1"  src="pics\logo.png">
+        </div>
+
+        <div class="Register">
+              <p class="letter">Register to CropFello</p>
+        </div>
+
+        <div style="display : grid; grid-template-columns: 60% 40%">
+              <div>
+                <form method="post">
+
+                     <div style="display : grid; grid-template-columns: 50% 50%"> 
+
+                              <div>
+                                <input class="firstname" type="text" placeholder="  First Name" name="first_name"> 
+                              </div>
+                              <div>
+                                <input class="lastname" type="text" placeholder="  Last Name" name="last_name"> 
+                              </div>
+
+                     </div>
+                    
+                     <div>
+                        <label class="Address-name">Available Area</Address></label>
+                        <label class="Address-name1">*</label>
+                        <br>
+                        <section>
+                          test
+                        </section>
+                     
+                        <select class="Address" name="address" id="address" multiple>
+                          <option value="1">Afghanistan</option>
+                          <option value="2">Australia</option>
+                          <option value="3">Germany</option>
+                          <option value="4">Canada</option>
+                          <option value="5">Russia</option>
+                           
+                     </div>
+                     
+                     <div style="display : grid; grid-template-columns: 50% 50%">
+                      
+                            <div> 
+                              <label class="Postal-code-name">Vehical Number</Address></label>
+                              <label class="Postal-code-name1">*</label>
+                              <br>
+                              <input class="Postal-code" type="text" name="postal_code"> 
+                            </div>
+
+                            <div>
+                              <label class="City-name">Vehical Type</Address></label>
+                              <label class="City-name1">*</label>
+                              <br>
+                              <input class="City" type="text" name="city">
+                            </div>
+                     </div>
+
+                     <div>
+                           <label class="ContactNo-name">Contact No</Address></label>
+                            <label class="ContactNo-name1">*</label>
+                             <br>
+                             <img class="srilanka"  src="pics\Sri Lanka.png">
+                             <label class="ContactNo-name2">|</label>
+                             <label class="ContactNo-name3">+94</label>
+                            <input class="ContactNo" type="text" name="contact_no">
+                     </div>
+
+
+              </div>
+              <div>
+                      <div>
+                        <label class="Email-name">Email</label>
+                        <label class="Email-name1">*</label>
+                        <br>
+                        <input class="Email" type="text" name="email">
+                      </div>
+
+                      <div>
+                        <label class="Password-name">Passsword</label>
+                        <label class="Password-name1">*</label>
+                        <br>
+                        <input class="Password" type="password" name="password">
+                      </div>
+
+                      <div>
+                        <label class="Confirm-Password-name">Confirm Passsword</label>
+                        <label class="Confirm-Password-name1">*</label>
+                        <br>
+                        <input class="Confirm-Password" type="password" name="confirm_password">
+                      </div>
+
+                      <div>
+                          <input id="button" class="Register-but" type="submit" value="Register">
+                          
+                      </div>
+</form>
+
+
+            </div>
+        </div>
+
+        <div>
+          <img class="img2" src="pics\register-corner2.png">
+          <img class="img3" src="pics\register-corner.png">
+        </div>
+
+
+    </body>
+    <script src="dist/js/multi-select-tag.js"></script>
+    <script>
+      new MultiSelectTag('address')  // id
+  </script>
+
+</html>
