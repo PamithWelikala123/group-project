@@ -1,0 +1,95 @@
+<?php
+
+
+
+?>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+     Feed
+    </title>
+    <link rel="Stylesheet" href="feed.css">
+    <style>
+     
+      </style>
+  </head>
+  <body>
+    <div style="display : grid; grid-template-columns: 21% 79%;">
+
+          <div> 
+                    <img class="Menu"  src="pics\feed\left.png">
+                    <img class="logo"  src="pics\logo.png">
+                    <img class="line"  src="pics\feed\line.png">
+                    <label class="Menu1">Menu</label>
+
+                    <div> 
+                      <button class="Feed">Feed</button>
+                      <img class="Feed1"  src="pics\feed\feed1.png">
+                      <button class="Bidding">Bidding</button>
+                      <img class="Bidding1"  src="pics\feed\Bidding1.png">
+                      <button class="Wishlist">Wishlist</button>
+                      <img class="Wishlist1"  src="pics\feed\heart1.png">
+                      <button class="Requests">Requests</button>
+                      <img class="Requests1"  src="pics\feed\flag.png">
+                    </div>
+
+                    <img class="line1"  src="pics\feed\line.png">
+                    <label class="Message">Message</label>
+                  
+
+          </div>
+
+
+          <div style="display : grid; grid-template-rows: 10% 90%;">
+                  <div>
+                          <img class="top"  src="pics\feed\top.png"> 
+                          <input class="Search" type="textbox" placeholder="Search">
+                          <img class="Search1"  src="pics\feed\search.png">
+                          <img class="bell" src="pics\feed\bell.png">
+                          <img class="active" src="pics\feed\active.png"> 
+                          <img class="profile" src="pics\feed\profilepic.png"> 
+                  </div>
+
+
+                  <diV>
+                          <div class="Scroll-bar">
+                            n this article, instead of a grammar tip, we’re taking a closer look at a key part of any written text, the paragraph. Paragraphs should be more than just a collection of sentences, but what is the purpose of paragraph structure and how does it impact the paper as a whole?
+
+Before considering how to structure a paragraph, it is helpful to understand the role that paragraphs play in a manuscript. In the broadest terms, a paragraph presents a complete thought. If a paragraph is written well, its main message can be understood without the need for preceding or following material. Paragraphs that are well designed can help a writer construct an argument in stages and can be thought of as signposts to guide a reader through the argument.
+
+Scholars of English rhetoric have offered a number of definitions of the paragraph, but all of these definitions mention groups of sentences about a single topic. The number, length, and order of these sentences are frequently disputed among these scholars, but the unity of thought remains a constant. Maintaining a single idea per paragraph allows the writer to address that idea thoroughly, creating a firm foundation for the central argument of the paper.
+
+Taking the time to prepare well-constructed paragraphs that are organized logically within the framework of your paper will be widely appreciated by both your readers and the reviewers. First, it makes your work more accessible. While a poorly-written paragraph can obscure the presented ideas and make it difficult for the reader to follow the author’s logic and main points, a well-written paragraph presents the author’s ideas in a clear and comprehensive manner. Second, good writing can contribute to the author’s credibility in the eyes of the reader. A well-written paragraph can give readers the impression that the author is careful, methodical, and focused, which can make your readers more receptive to the ideas you present.
+How are good paragraphs structured to make them effective?
+
+Whether you are writing a short article or a book, the key to effectively communicating your ideas is to organize your thoughts into paragraphs. Like most papers, a good paragraph should have an introduction, evidence, and a conclusion. In addition, it should focus on a central theme, idea, or subject. Before starting to write, it is helpful to think about the point you wish to discuss in the paragraph and decide what type of paragraph it will be. There are many types of paragraphs (e.g., descriptive, expository, persuasive, comparative), and these differ according to how you intend to present the information in your paragraph to support your point. Here, however, we will discuss how to write a general paragraph based on its three main elements: (1) the topic sentence, (2) supporting evidence, and (3) the concluding statement.
+
+We will demonstrate how these three elements are implemented in the following example, which is about the use of mouse models for biomedical research:
+Example paragraph:
+
+Throughout the years, mice have proven to be invaluable model organisms for biomedical research, allowing researchers to investigate disorders by manipulating the environment or the genome. Unlike their human counterparts, mice can be studied in a carefully controlled environment. It is also relatively easy for researchers to manipulate diet composition, food availability, exercise, and other environmental factors that can contribute to differences in physiological outcomes in mice. In addition to being relatively inexpensive, fast to reproduce, and easy to maintain compared to other mammalian models, mice are also remarkably similar to humans in terms of their physiology and genetics. Mice and humans share approximately the same number of genes and exhibit extensive synteny. Because of their genetic similarity to humans, mice have been used to pioneer genetic manipulation technologies, such as gene overexpression and gene knockout and knockdown models at the whole-organism level or in specific tissues. These technological breakthroughs in genetics research have fueled several decades of rapid discovery and knowledge expansion in many biomedical fields. The ability to manipulate both genetic and environmental variables with relative ease has made mice one of the most widely used in vivo models in biomedical research today.
+1. Topic sentence
+
+The topic sentence is typically the first sentence of a paragraph, and it should clearly state the main idea that you will develop throughout the paragraph. If a topic sentence is too general, the paragraph will often be lengthy and unfocused. In this situation, the paragraph can be organized into two (or sometimes more) paragraphs, each with a topic sentence that has a more reasonable scope based on the available supporting evidence. Ideally, your readers should be able to quickly identify the main ideas and scope of your paper simply by reading every topic sentence.
+
+The example topic sentence (sentence 1, underlined) tells the reader that the paragraph is g
+                          </div>
+
+                  </diV>
+                  
+    
+
+
+          </div>
+         
+                   
+
+    </div>
+ 
+
+
+  </body>
+</html>
+

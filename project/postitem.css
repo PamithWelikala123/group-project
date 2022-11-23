@@ -1,0 +1,259 @@
+
+body{
+  
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+
+}
+.logo{
+  background-color: blueviolet;
+  flex: 1;
+  height: 120px;
+  display: block;
+}
+
+.img1{
+  height: 50%;
+  display:inline-block;
+  margin-left: 24px;
+ margin-top: 20px;
+}
+
+.form1{
+  display: grid;
+  grid-template-columns: 40% 60%;
+  flex: 1;
+}
+
+.right{
+background-color: aqua;
+
+
+color: rgba(52, 149, 27, 0.4);
+}
+
+.left{
+background-color: pink;
+}
+
+.item_id{
+  display: inline-block;
+width: 277px;
+height: 40px;
+margin-left: 42px;
+margin-top:50px;
+background-color:white;
+border-color: black;
+border-radius: 10px;
+
+}
+
+.crop_type{
+  display: inline-block;
+  width: 277px;
+  height: 40px;
+  margin-left: 30px;
+  margin-top:50px;
+  background-color:white;
+  border-color: black;
+  border-radius: 10px;
+}
+
+.exp{
+
+  display: block;
+  width: 277px;
+  height: 40px;
+  margin-left: 42px;
+  margin-top:50px;
+  background-color:white;
+  border-color: black;
+  border-radius: 10px;
+
+}
+
+.unit{
+  display: inline-block;
+  width: 162px;
+  height: 40px;
+  margin-left: 42px;
+  margin-top:50px;
+  background-color:white;
+  border-color: black;
+  border-radius: 10px;
+
+}
+
+.price{
+  display: inline-block;
+  width: 162px;
+  height: 40px;
+  margin-left: 42px;
+  margin-top:50px;
+  background-color:white;
+  border-color: black;
+  border-radius: 10px;
+}
+
+.size{
+  display: inline-block;
+  width: 162px;
+  height: 40px;
+  margin-left: 42px;
+  margin-top:50px;
+  background-color:white;
+  border-color: black;
+  border-radius: 10px;
+}
+
+.stock_size{
+  display: inline-block;
+  width: 114px;
+  height: 40px;
+  margin-left: 42px;
+  margin-top:50px;
+  background-color:white;
+  border-color: black;
+  border-radius: 10px;
+}
+.stock_size1{
+  display: inline-block;
+  width: 92px;
+  height: 40px;
+  margin-top:50px;
+  background-color:white;
+  border-color: black;
+  border-radius: 10px;
+}
+
+.discount{
+  display: inline-block;
+  width: 114px;
+  height: 40px;
+  margin-left: 150px;
+  margin-top:50px;
+  background-color:white;
+  border-color: black;
+  border-radius: 10px;
+}
+.discount1{
+  display: inline-block;
+  width: 92px;
+  height: 40px;
+  margin-top:50px;
+  background-color:white;
+  border-color: black;
+  border-radius: 10px;
+}
+
+
+
+
+.select-tag.body{
+  display:flex;border:1px solid var(--border-color);background:rgb(238, 118, 226);min-height:2.15rem;width:100%;min-width:14rem
+}
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#dragger_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #344150;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+
+#dragger {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px dashed #fbfbfb;
+    border-radius: 5px;
+    background-color: #4DAAA7;
+}
+
+
+#dragger.active {
+    border: 2px dashed #000000;
+}
+
+
+#dragger img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+#filename {
+    width: 100%;
+}
+
+
+.fileName {
+    padding: 5px;
+    width: 100%;
+    margin: 10px 0 0 0;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.fa-trash-can {
+    color: red;
+    cursor: pointer;
+}
+
+
+.icon {
+    color: #ffffff;
+    font-size: 45px;
+    margin: 10px 0;
+}
+
+h2,
+h3 {
+    margin: 5px 0;
+    color: #ffffff;
+}
+
+
+button {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    background-color: #333333;
+    color: #ffffff;
+    outline: none;
+    cursor: pointer;
+}
